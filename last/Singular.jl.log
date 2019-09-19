@@ -1,0 +1,187 @@
+=== Singular.jl (meta/tests/test-singularjl.sh) at 2019-09-19 08:05
+
+Welcome to Nemo version 0.14.3
+
+Nemo comes with absolutely no warranty whatsoever
+
+n_Z.constructors...PASS
+n_Z.printing...PASS
+n_Z.manipulation...PASS
+n_Z.unary_ops...PASS
+n_Z.binary_ops...PASS
+n_Z.adhoc_binary...PASS
+n_Z.comparison...PASS
+n_Z.ad_hoc_comparison...PASS
+n_Z.powering...PASS
+n_Z.exact_division...PASS
+n_Z.euclidean_division...PASS
+n_Z.gcd_lcm...PASS
+n_Z.extended_gcd...PASS
+n_Z.chinese_remainder...PASS
+n_Z.Polynomials...PASS
+n_Z.conversions...PASS
+
+n_Zp.constructors...PASS
+n_Zp.printing...PASS
+n_Zp.manipulation...PASS
+n_Zp.unary_ops...PASS
+n_Zp.binary_ops...PASS
+n_Zp.adhoc_binary...PASS
+n_Zp.comparison...PASS
+n_Zp.ad_hoc_comparison...PASS
+n_Zp.powering...PASS
+n_Zp.exact_division...PASS
+n_Zp.gcd_lcm...PASS
+n_Zp.Polynomials...PASS
+
+n_Zn.constructors...PASS
+n_Zn.printing...PASS
+n_Zn.manipulation...PASS
+n_Zn.unary_ops...PASS
+n_Zn.binary_ops...PASS
+n_Zn.adhoc_binary...PASS
+n_Zn.comparison...PASS
+n_Zn.ad_hoc_comparison...PASS
+n_Zn.powering...PASS
+n_Zn.exact_division...PASS
+n_Zn.gcd_lcm...PASS
+n_Zn.extended_gcd...PASS
+n_Zn.Polynomials...PASS
+
+n_GF.constructors...PASS
+n_GF.printing...PASS
+n_GF.manipulation...PASS
+n_GF.unary_ops...PASS
+n_GF.binary_ops...PASS
+n_GF.adhoc_binary...PASS
+n_GF.comparison...PASS
+n_GF.ad_hoc_comparison...PASS
+n_GF.powering...PASS
+n_GF.exact_division...PASS
+n_GF.gcd_lcm...PASS
+n_GF.Polynomials...PASS
+
+n_Q.constructors...PASS
+n_Q.printing...PASS
+n_Q.manipulation...PASS
+n_Q.unary_ops...PASS
+n_Q.binary_ops...PASS
+n_Q.adhoc_binary...PASS
+n_Q.comparison...PASS
+n_Q.ad_hoc_comparison...PASS
+n_Q.powering...PASS
+n_Q.exact_division...PASS
+n_Q.gcd_lcm...PASS
+n_Q.reconstruct...PASS
+n_Q.Polynomials...PASS
+n_Q.conversions...PASS
+
+PolyRing.degree_bound...PASS
+PolyRing.ordering...PASS
+
+spoly.constructors...PASS
+spoly.printing...PASS
+spoly.manipulation...PASS
+spoly.multivariate_coeff...PASS
+spoly.unary_ops...PASS
+spoly.binary_ops...PASS
+spoly.comparison...PASS
+spoly.powering...PASS
+spoly.exact_division...PASS
+spoly.adhoc_exact_division...PASS
+spoly.divides...PASS
+spoly.euclidean_division...PASS
+spoly.gcd_lcm...PASS
+spoly.extended_gcd...PASS
+spoly.evaluate...PASS
+spoly.inflation_deflation...PASS
+spoly.Polynomials...PASS
+spoly.test_spoly_differential...PASS
+spoly.test_spoly_factor...PASS
+
+sideal.constructors...PASS
+sideal.manipulation...PASS
+sideal.binary_ops...PASS
+sideal.powering...PASS
+sideal.containment...PASS
+sideal.comparison...PASS
+sideal.local...PASS
+sideal.leading_terms...PASS
+sideal.intersection...PASS
+sideal.quotient...PASS
+sideal.saturation...PASS
+sideal.slimgb...PASS
+sideal.std...PASS
+sideal.reduction...PASS
+sideal.free_resolution...PASS
+sideal.syzygy...PASS
+sideal.eliminate...PASS
+sideal.kernel...PASS
+sideal.jet...PASS
+sideal.jacob...PASS
+sideal.zerodim...PASS
+
+smatrix.constructors...PASS
+smatrix.manipulation...PASS
+smatrix.binary_ops...PASS
+smatrix.comparison...PASS
+
+sresolution.constructors...PASS
+sresolution.manipulation...PASS
+sresolution.betti...PASS
+sresolution.minres...PASS
+
+svector.constructors...PASS
+svector.manipulation...PASS
+svector.unary_ops...PASS
+svector.binary_ops...PASS
+svector.adhoc_binary...PASS
+svector.comparison...PASS
+svector.conversion...PASS
+
+smodule.constructors...PASS
+smodule.jet...PASS
+smodule.local...PASS
+smodule.manipulation...PASS
+smodule.std...PASS
+smodule.syz...PASS
+smodule.sres...PASS
+
+call_interpreter...PASS
+alghom.constructors...PASS
+alghom.apply...PASS
+alghom.compose...PASS
+alghom.preimage...PASS
+
+Nemo.fmpq...PASS
+Nemo.fmpz...PASS
+Nemo.fq_nmod...PASS
+Nemo.fq...PASS
+Nemo.nf_elem...PASS
+Nemo.NemoField...PASS
+Nemo.NemoRing...PASS
+
+   Testing Singular
+ Resolving package versions...
+    Status `/tmp/tmph8af3T/Manifest.toml`
+  [c3fe647b] AbstractAlgebra v0.5.4 #master (AbstractAlgebra.jl)
+  [b99e7846] BinaryProvider v0.5.6
+  [1f15a43c] CxxWrap v0.8.2
+  [2edaba10] Nemo v0.14.3 #master (Nemo.jl)
+  [bcd08a7b] Singular v0.0.0 #master (Singular.jl)
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [10745b16] Statistics  [`@stdlib/Statistics`]
+  [8dfed614] Test  [`@stdlib/Test`]
+   Testing Singular tests passed 
+=== SUCCESS at 2019-09-19 08:05

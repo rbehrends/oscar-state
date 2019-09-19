@@ -1,0 +1,147 @@
+=== Hecke.jl (meta/tests/test-hecke.sh) at 2019-09-19 07:32
+
+Welcome to Nemo version 0.14.3
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to Nemo version 0.14.3
+
+Nemo comes with absolutely no warranty whatsoever
+
+
+Welcome to 
+
+    _    _           _        
+   | |  | |         | |       
+   | |__| | ___  ___| | _____ 
+   |  __  |/ _ \/ __| |/ / _ \
+   | |  | |  __/ (__|   <  __/
+   |_|  |_|\___|\___|_|\_\___|
+    
+Version 0.6.5 ... 
+ ... which comes with absolutely no warranty whatsoever
+(c) 2015-2019 by Claus Fieker, Tommy Hofmann and Carlo Sircana
+
+Test Summary: | Pass  Total
+Number fields |   20     20
+ 38.294709 seconds (79.50 M allocations: 3.896 GiB, 9.81% gc time)
+Test Summary: | Pass  Total
+AlgAss        |  914    914
+ 67.346578 seconds (120.32 M allocations: 5.544 GiB, 7.62% gc time)
+Test Summary: | Pass  Total
+AlgAssAbsOrd  |  179    179
+263.967253 seconds (725.27 M allocations: 31.258 GiB, 21.06% gc time)
+Test Summary: | Pass  Total
+AlgAssRelOrd  |   33     33
+ 65.866474 seconds (153.07 M allocations: 6.823 GiB, 20.79% gc time)
+Test Summary:   | Pass  Total
+Elliptic curves |  278    278
+ 30.549778 seconds (24.97 M allocations: 2.992 GiB, 4.47% gc time)
+Test Summary:                     | Pass  Total
+Finitely generated abelian groups |  333    333
+ 16.824428 seconds (25.88 M allocations: 1.223 GiB, 8.86% gc time)
+Test Summary:  | Pass  Total
+Generic Groups |  928    928
+ 20.576578 seconds (78.64 M allocations: 3.611 GiB, 29.11% gc time)
+Test Summary:  |
+Linear algebra | No tests
+  0.004273 seconds (737 allocations: 62.047 KiB)
+Test Summary: | Pass  Total
+Map           |  132    132
+  0.894648 seconds (681.27 k allocations: 33.404 MiB, 7.77% gc time)
+Test Summary: | Pass  Total
+Misc          | 5042   5042
+116.789509 seconds (164.78 M allocations: 15.562 GiB, 14.37% gc time)
+Test Summary: | Pass  Total
+NfAbs         | 2066   2066
+101.283704 seconds (108.49 M allocations: 13.744 GiB, 11.80% gc time)
+NfOrd.jl
+  5.351630 seconds (7.98 M allocations: 505.959 MiB, 12.07% gc time)
+Elem.jl
+  0.928196 seconds (442.00 k allocations: 23.564 MiB, 6.69% gc time)
+Ideal.jl
+  7.197537 seconds (15.29 M allocations: 950.166 MiB, 17.42% gc time)
+FracIdl.jl
+  0.172142 seconds (58.78 k allocations: 3.353 MiB)
+ResidueRing.jl
+  0.263959 seconds (172.78 k allocations: 17.352 MiB, 10.06% gc time)
+Clgp.jl
+303.344245 seconds (383.92 M allocations: 31.689 GiB, 12.22% gc time)
+RayClassGroup.jl
+  8.652613 seconds (13.60 M allocations: 718.399 MiB, 13.80% gc time)
+ResidueRingMultGrp.jl
+ 22.000896 seconds (61.19 M allocations: 3.564 GiB, 29.40% gc time)
+Overorders.jl
+ 25.326022 seconds (74.69 M allocations: 3.566 GiB, 29.09% gc time)
+LinearAlgebra.jl
+  0.000066 seconds (233 allocations: 13.102 KiB)
+used 4 1152921504606847009-adic digits
+ 13.684748 seconds (29.43 M allocations: 1.559 GiB, 20.29% gc time)
+PicardGroup.jl
+ 16.269175 seconds (12.93 M allocations: 2.742 GiB, 8.94% gc time)
+Test Summary:                    |  Pass  Total
+Orders in absolute number fields | 15341  15341
+403.216224 seconds (599.71 M allocations: 45.286 GiB, 14.46% gc time)
+NfRel/NfRelOrd.jl
+ 31.230351 seconds (74.94 M allocations: 4.250 GiB, 26.18% gc time)
+NfRel/Ideal.jl
+  5.420795 seconds (14.56 M allocations: 789.851 MiB, 27.07% gc time)
+NfRel/FracIdeal.jl
+  0.127051 seconds (298.81 k allocations: 16.188 MiB, 32.43% gc time)
+NfRel/NfRel.jl
+  0.376744 seconds (294.27 k allocations: 42.599 MiB, 13.44% gc time)
+NfRel/Elem.jl
+  0.037753 seconds (34.05 k allocations: 1.835 MiB)
+NfRel/NEQ_Kirschmer.jl
+  6.238573 seconds (9.78 M allocations: 505.592 MiB, 13.68% gc time)
+Test Summary: | Pass  Total
+NfRel         |   83     83
+ 43.445747 seconds (99.92 M allocations: 5.575 GiB, 24.37% gc time)
+Test Summary: | Pass  Total
+RCF           |   66     66
+200.180589 seconds (282.34 M allocations: 22.328 GiB, 14.40% gc time)
+Test Summary: |
+Examples      | No tests
+  0.008264 seconds (1.21 k allocations: 111.203 KiB)
+Test Summary: | Pass  Total
+Sparse        |  176    176
+  4.832679 seconds (5.96 M allocations: 300.006 MiB, 9.88% gc time)
+Test Summary:                 | Pass  Total
+Quadratic and hermitian forms |   19     19
+  2.833417 seconds (4.39 M allocations: 220.554 MiB, 13.11% gc time)
+Conjugates.jl
+  2.762205 seconds (4.67 M allocations: 229.298 MiB, 13.98% gc time)
+Test Summary:  | Pass  Total
+LocalField ... |   10     10
+  2.768077 seconds (4.67 M allocations: 229.367 MiB, 13.95% gc time)
+   Testing Hecke
+    Status `/tmp/tmpdCJs9o/Manifest.toml`
+  [c3fe647b] AbstractAlgebra v0.5.4 #master (AbstractAlgebra.jl)
+  [b99e7846] BinaryProvider v0.5.6
+  [3e1990a7] Hecke v0.6.5 #master (Hecke.jl)
+  [2edaba10] Nemo v0.14.3 #master (Nemo.jl)
+  [ae029012] Requires v0.5.2
+  [2a0f44e3] Base64  [`@stdlib/Base64`]
+  [ade2ca70] Dates  [`@stdlib/Dates`]
+  [8ba89e20] Distributed  [`@stdlib/Distributed`]
+  [b77e0a4c] InteractiveUtils  [`@stdlib/InteractiveUtils`]
+  [76f85450] LibGit2  [`@stdlib/LibGit2`]
+  [8f399da3] Libdl  [`@stdlib/Libdl`]
+  [37e2e46d] LinearAlgebra  [`@stdlib/LinearAlgebra`]
+  [56ddb016] Logging  [`@stdlib/Logging`]
+  [d6f4376e] Markdown  [`@stdlib/Markdown`]
+  [44cfe95a] Pkg  [`@stdlib/Pkg`]
+  [de0858da] Printf  [`@stdlib/Printf`]
+  [9abbd945] Profile  [`@stdlib/Profile`]
+  [3fa0cd96] REPL  [`@stdlib/REPL`]
+  [9a3f8284] Random  [`@stdlib/Random`]
+  [ea8e919c] SHA  [`@stdlib/SHA`]
+  [9e88b42a] Serialization  [`@stdlib/Serialization`]
+  [6462fe0b] Sockets  [`@stdlib/Sockets`]
+  [2f01184e] SparseArrays  [`@stdlib/SparseArrays`]
+  [8dfed614] Test  [`@stdlib/Test`]
+  [cf7118a7] UUIDs  [`@stdlib/UUIDs`]
+  [4ec0a83e] Unicode  [`@stdlib/Unicode`]
+   Testing Hecke tests passed 
+=== SUCCESS at 2019-09-19 07:56
